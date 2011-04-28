@@ -63,11 +63,7 @@ div.cfct-mod-content ul {
 	z-index: 10000;
 	height: 60px;
 	position: relative;
-	/*filter:alpha(opacity=80);*/
-    /*-moz-opacity:0.8;
-    -khtml-opacity: 0.8;
-    opacity: 0.8;*/
-    -moz-box-shadow: 0px 1px 5px #000;
+  -moz-box-shadow: 0px 1px 5px #000;
 	-webkit-box-shadow: 0px 1px 5px #000;
 	box-shadow: 0px 1px 5px #000;
 }
