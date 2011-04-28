@@ -1,0 +1,24 @@
+; $Id$
+
+name = next
+description = Next Baha'i National Center theme
+core = 6.x
+engine = phptemplate
+regions[sidebar1] = sidebar 1
+regions[adminmenu] = adminmenu
+regions[search] = search
+regions[content] = content
+regions[content_top] = content top
+regions[content_left] = content left
+regions[content_right] = content right
+regions[content_bottom] = content bottom
+regions[base] = base
+regions[header] = header
+regions[navi] = navi
+stylesheets[all][] = style.css
+stylesheets[screen][] = carrington_business.css
+stylesheets[screen][] = carrington_my_bahai.css
+stylesheets[screen][] = mods.css
+scripts[] = js/script.js
+scripts[] = js/curvycorners.js
+scripts[] = js/jquery.overlabel.js
