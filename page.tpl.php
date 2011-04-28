@@ -98,7 +98,7 @@ document.write(unescape("%3Cscript src='" + asset_proto + "html5shiv.googlecode.
 </script>
 	<![endif]-->
 	<!--[if lte IE 7]>
-		<link rel="stylesheet" type="text/css" media="screen" href="http://next.bahai.us/wp-content/themes/carrington-business/css/lte-ie7.css?ver=1.1.1" />
+		<link rel="stylesheet" type="text/css" media="screen" href="http://www.bahai.us/wp-content/themes/carrington-business/css/lte-ie7.css?ver=1.1.1" />
 	<![endif]-->
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
@@ -113,7 +113,7 @@ document.write(unescape("%3Cscript src='" + asset_proto + "html5shiv.googlecode.
 	<div id="mainNav">
   		<div class="centerContent">
   		<div id="NINE">
-  			<h1 class="site-title"><a class="siteLogo" href="http://next.bahai.us/" title="Home">
+  			<h1 class="site-title"><a class="siteLogo" href="http://www.bahai.us/" title="Home">
   				Bah&aacute;&rsquo;&iacute; Faith
   			</a></h1>
 
@@ -121,18 +121,18 @@ document.write(unescape("%3Cscript src='" + asset_proto + "html5shiv.googlecode.
   		<div id="globalNav">
   				<div  class="current" >
   					<div class="left"></div>
-  					<div class="center"><a href="http://next.bahai.us/">Welcome</a></div>
+  					<div class="center"><a href="http://www.bahai.us/">Welcome</a></div>
   					<div class="right"></div>
   				</div>
   				<div >
   					<div class="left"></div>
 
-  					<div class="center"><a href="http://next.bahai.us/community-life">Community</a></div>
+  					<div class="center"><a href="http://www.bahai.us/community-life">Community</a></div>
   					<div class="right"></div>
   				</div>
   				<div >
   					<div class="left"></div>
-  					<div class="center"><a href="http://next.bahai.us/news">News</a></div>
+  					<div class="center"><a href="http://www.bahai.us/news">News</a></div>
   					<div class="right"></div>
   				</div>
 
@@ -146,7 +146,7 @@ document.write(unescape("%3Cscript src='" + asset_proto + "html5shiv.googlecode.
 
 						</ul>
 
-			<form class="searchform" method="get" action="http://next.bahai.us/" onsubmit="location.href=this.action+'search/'+encodeURIComponent(this.s.value).replace(/%20/g, '+'); return false;">
+			<form class="searchform" method="get" action="http://www.bahai.us/" onsubmit="location.href=this.action+'search/'+encodeURIComponent(this.s.value).replace(/%20/g, '+'); return false;">
 	<label>Search</label>
 	<div>
 		<input type="text" id="s-4db7a1589cd99" class="s" name="s" value="" />
