@@ -103,7 +103,8 @@ document.write(unescape("%3Cscript src='" + asset_proto + "html5shiv.googlecode.
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
   <?php print $scripts; ?>
-
+  <script type="text/javascript" src="http://use.typekit.com/ttb5aic.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 
 </head>
