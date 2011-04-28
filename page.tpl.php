@@ -80,12 +80,16 @@
  * @see template_preprocess_page()
  */
 ?>
-<html>
+<!DOCTYPE html>
+<!--[if IE 6]><![endif]-->
+<html dir="ltr" lang="en-US">
 <head>
   <?php print $head; ?>
-  <title><?php print $head_title; ?></title>
-  <?php print $styles; ?>
-  <?php print $scripts; ?>
+
+
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+
 	<!--[if lt IE 9]>
 		<script type="text/javascript" charset="utf-8">
 var is_ssl = ("https:" == document.location.protocol);
@@ -96,56 +100,64 @@ document.write(unescape("%3Cscript src='" + asset_proto + "html5shiv.googlecode.
 	<!--[if lte IE 7]>
 		<link rel="stylesheet" type="text/css" media="screen" href="http://next.bahai.us/wp-content/themes/carrington-business/css/lte-ie7.css?ver=1.1.1" />
 	<![endif]-->
+  <title><?php print $head_title; ?></title>
+  <?php print $styles; ?>
+  <?php print $scripts; ?>
 
-  <script type="text/javascript"><?php /* Needed to avoid Flash of Unstyled Content in IE */ ?> </script>
+
+
 </head>
-<body class="<?php print $body_classes; ?>">
-
-  <div id="navWrapper">
+<body class="home page page-id-25447 page-parent page-template page-template-page-blank-php">
+	<div id="navWrapper">
 	<div id="mainNav">
   		<div class="centerContent">
   		<div id="NINE">
-  			<h1 class="site-title"><a class="siteLogo" href="http://www.bahai.us/" title="Home">
+  			<h1 class="site-title"><a class="siteLogo" href="http://next.bahai.us/" title="Home">
   				Bah&aacute;&rsquo;&iacute; Faith
   			</a></h1>
+
   		</div>
-  			<div id="globalNav">
-  				<div class="current">
+  		<div id="globalNav">
+  				<div  class="current" >
   					<div class="left"></div>
-  					<div class="center"><a href="http://www.bahai.us/">Welcome</a></div>
+  					<div class="center"><a href="http://next.bahai.us/">Welcome</a></div>
   					<div class="right"></div>
   				</div>
-  				<div>
+  				<div >
   					<div class="left"></div>
-  					<div class="center"><a href="http://www.bahai.us/community-life">Community</a></div>
+
+  					<div class="center"><a href="http://next.bahai.us/community-life">Community</a></div>
   					<div class="right"></div>
   				</div>
-  				<div>
+  				<div >
   					<div class="left"></div>
-  					<div class="center"><a href="http://www.bahai.us/news">News</a></div>
+  					<div class="center"><a href="http://next.bahai.us/news">News</a></div>
   					<div class="right"></div>
   				</div>
+
   			</div>
-  		</div> <!-- / .centerContent -->
+		</div> <!-- / .centerContent -->
   	</div> <!-- / #mainNav -->
-  		<div class="centerContent">
+		<div class="centerContent">
   			<div id="siteNav">
   			<ul id="siteNavList">
 							<li class="tagline">Official Website of the Bah&aacute;&rsquo;&iacute;s of the United States</li>
 
 						</ul>
 
-			<form class="searchform" method="get" action="http://www.bahai.us/" onsubmit="location.href=this.action+'search/'+encodeURIComponent(this.s.value).replace(/%20/g, '+'); return false;">
-        <label for="s-4db7a1589cd99">Search</label>
-        <div>
-          <input type="text" id="s-4db7a1589cd99" class="s" name="s" value="" />
-          <input type="submit" class="searchsubmit" value="Search" />
-        </div>
-      </form>
+			<form class="searchform" method="get" action="http://next.bahai.us/" onsubmit="location.href=this.action+'search/'+encodeURIComponent(this.s.value).replace(/%20/g, '+'); return false;">
+	<label>Search</label>
+	<div>
+		<input type="text" id="s-4db7a1589cd99" class="s" name="s" value="" />
+		<input type="submit" class="searchsubmit" value="Search" />
+	</div>
+</form>
   			</div> <!-- / #siteNav -->
   		</div> <!-- / .centerContent -->
-  	</div> <!-- #navWrapper -->
 
+  	</div> <!-- #navWrapper -->
+	</div><!-- #header -->
+	<hr class="accessibility" />
 
         <div id="main" class="str-container">
           <div id="main-content">
@@ -199,9 +211,6 @@ document.write(unescape("%3Cscript src='" + asset_proto + "html5shiv.googlecode.
     </div>
 
 		<div id="footer-sub">
-			<div class="nav nav-footer">
-				<h3 class="site-title"><a href="http://www.bahai.us/" title="Home">Bahá’í Faith</a></h3>
-				<ul id="menu-portal-nav" class="menu"></ul>			</div><!--/nav-footer-->
 			<div class="copyright">© Copyright <?php echo date("Y"); ?> National Spiritual Assembly of the Baha'is of the United States</div>		</div><!-- #footer-sub -->
 
 	</div><!-- .str-container -->
